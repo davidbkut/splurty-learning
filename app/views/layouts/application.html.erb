@@ -10,6 +10,28 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+        <div class="circle">
+          <br />
+          Welcome to
+          <br />
+          The Party
+          <br />
+          PAL!
+        </div>
+      </div>
+      <div class:"col-4 slogan">
+        Come out and do code...We'll have a few laughs...
+      </div>
+      <div class="col-5" links>
+        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
   </body>
 </html>
