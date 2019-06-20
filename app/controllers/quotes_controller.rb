@@ -9,7 +9,7 @@ class QuotesController < ApplicationController
 
   def create
     Quote.create(quote_params)
-    redirect_to_root_path
+    redirect_to quotes_path
   end
 
   private
